@@ -193,7 +193,7 @@ nav {
     margin-bottom: 80px;
   }
 
-  .about-div > div {
+  .about-divs > div {
     width: 230px;
     height: 209px;
     background-color: white;
@@ -741,6 +741,10 @@ nav {
 }
 
 @media (max-width:920px){
+  .menu {
+    width: 600px;
+  }
+
   .nav-menu {
     display: none;
   }
@@ -857,6 +861,8 @@ nav {
     #how-did {
       width: 500px;
     }
+
+    
     
 }
 
