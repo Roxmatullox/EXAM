@@ -42,7 +42,7 @@ nav {
 }
 
 .home {
-  max-width: 1536px;
+  width: 100%;
   height: 710px;
   padding-top: 90px;
   background-color: #FAFAFA;
@@ -741,8 +741,11 @@ nav {
 }
 
 @media (max-width:920px){
-  .menu {
-    width: 600px;
+  
+  .about-divs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-menu {
